@@ -1,0 +1,1243 @@
+.cs-transform {
+    transform: scale(1.2);
+}
+
+@media(max-width: 767px) {
+    .cs-transform {
+        transform: scale(1)!important;
+    }
+    #satu {
+        display: none!important;
+    }
+    .banner {
+        background: url('https://www.firstmedia.com/files/images/bt/p/nab/2022/maret/LP-Banner-Mobile_Online-Offer.jpg')!important;
+        background-position: center!important;
+        padding-bottom: 10px!important;
+        background-size:cover!important;
+        height:515px!important;
+    }
+    .content-banner{
+    	display:inherit!important;
+    }
+    .content-banner .img-col-text .img-text img {
+        width: 300px!important;
+        margin: 20px auto!important;
+        
+    }
+    
+    .content-banner .img-col-text{
+    	justify-content:center!important;
+    }
+    span.hargAsatu{
+    	font-size:45px!important;
+    }
+    .hargANormal{
+    	font-size:11px!important;
+    }
+    .jumlaHMbps{
+    	font-size:27px!important;
+    }
+    span.regular{
+    	margin-bottom:-15px;
+      padding-bottom:7px;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1024px) {
+    #satu {
+        display: none!important;
+    }
+    .cs-transform {
+        transform: scale(0.5)!important;
+        position:relative;
+        left:25%;
+        margin-top:-5%;
+    }
+    .col-md-6 {
+        width: 100%!important;
+    }
+    .banner {
+        height: 400px!important;
+        background-position: center!important;
+    }
+}
+
+@media(min-width:900px) {
+    .col-xs-offset-3 {
+        margin-left: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article-header,
+.top {
+    display: none;
+}
+
+.m0auto {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+
+.bGUngu {
+    background-color: #612f7a;
+}
+
+.ungu {
+    color: #612f7a;
+}
+
+.linemiring.famil:before {
+    border-color: transparent transparent #612f7a;
+}
+
+.nav-quick.right {
+    display: none !important;
+}
+
+.banner {
+    background: url('https://www.firstmedia.com/files/images/bt/p/nab/2022/maret/LP-Banner-Desk_Online-Offer.jpg');
+    background-size: cover;
+    /*height: 480px;*/
+    padding-bottom: 10px;
+    background-position: center;
+}
+
+.btn-pelanggan {
+    margin-top: -20px;
+    background: white;
+    font-family: 'Gilroy', sans-serif !important;
+    font-weight: 500;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 25px;
+    font-size: 12px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+.batas-superwifi {
+    background: #00419f;
+    border-radius: 50px 50px 0 0;
+    height: 30px;
+    margin-top: -25px;
+}
+
+.img-kv img {
+    width: 95%;
+    margin-bottom: 15px;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+}
+
+.konten-sw {
+    background: #00419f;
+    /* background: white; */
+}
+
+.nopadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media(min-width:1000px) {
+    .no-pr {
+        padding-right: 0 !important;
+    }
+}
+
+.head-kanan,
+.text1,
+.text2,
+.text3,
+.text3 span,
+.text-head {
+    text-transform: uppercase;
+    font-family: 'Gilroy', sans-serif !important;
+    font-style: normal;
+    letter-spacing: 1.2px;
+}
+
+.head-kanan {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.headline {
+    line-height: 50px;
+    /* background: url(aset/headline.png); */
+    background-size: contain;
+    /* padding: 3px; */
+    height: 100%;
+    padding: 42px 0px;
+    color: #b00a13 !important;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.img-harga img {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.img-tokped img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.text-note {
+    text-align: center;
+    color: #00287d;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.text1 {
+    /* display: inline-block; */
+    background: #e81f5e;
+    padding: 8px 15px;
+    border-radius: 0 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.text2 {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 400 !important;
+    /* font-family: montserrat, sans-serif !important; */
+    text-transform: none;
+    text-align: center;
+}
+
+
+/* .text-benefit{
+font-size: 24px;
+color: #f9e3a4 !important;
+margin-top: 20px;
+font-weight: 700 !important;
+text-transform: none;
+text-align: left;
+} */
+
+.text-benefit {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fbe5a2;
+    vertical-align: top;
+    /* font-family: montserrat, sans-serif !important; */
+    font-weight: 700 !important;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.text3 {
+    font-size: 20px;
+    /* color: white; */
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+}
+
+.text-4 {
+    font-size: 9px;
+    font-weight: 300;
+    color: white;
+    vertical-align: top;
+    /* font-family: montserrat, sans-serif !important; */
+    font-weight: 500 !important;
+    font-style: normal;
+}
+
+
+/* .text3 span{
+font-size: 9px;
+font-weight: 300;
+color:white;
+vertical-align: top;
+font-family: montserrat, sans-serif !important;
+font-weight: 500 !important;
+font-style: normal;
+} */
+
+.text-head {
+    font-size: 22px;
+    width: 60%;
+    margin: 0 auto;
+    color: rgb(26, 98, 174) !important;
+    padding-top: 5px;
+    /* color: white !important; */
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.text-desc {
+    font-size: 15px;
+    line-height: 24px;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    color: black !important;
+    font-family: montserrat, sans-serif !important;
+}
+
+.anda-pelanggan {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 25px;
+    font-size: 11.4px;
+    letter-spacing: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.anda-pelanggan1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-color: #094c6d;
+    border-radius: 0 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 11.4px;
+    letter-spacing: 0;
+    margin-top: 35px;
+    opacity: 0.8;
+}
+
+.anda-pelanggan span {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.anda-pelanggan:hover {
+    opacity: 1;
+}
+
+.logo-bs img {
+    width: 150px;
+    margin-bottom: 13px
+}
+
+.headline-h1 img {
+    width: 55%;
+}
+
+.benefit1 img {
+    width: 65%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed white;
+}
+
+
+/* 
+HEADLINE
+*/
+
+.head1 {
+    /* background:#f8fafc; */
+    /* padding-top:25px; */
+    padding-bottom: 20px;
+}
+
+.headline-h1 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #094c6d;
+}
+
+.sub-head {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.img-browser img {
+    width: 65%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.untuk-berlangganan {
+    background: #1a3095;
+    width: 55%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border-radius: 100px;
+}
+
+.content-untuk-berlangganan {
+    border: 3px solid #00c8ff;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.text-untuk-berlangganan {
+    text-align: center;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    /* background: #1a3095; */
+    /* width: 50%; */
+    margin: 0 auto;
+    margin-top: -22px;
+}
+
+.text-untuk-berlangganan mark {
+    background: #1a3095;
+    color: white;
+    padding: 0 10px;
+}
+
+.img-untuk-berlangganan {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-untuk-berlangganan a img {
+    width: 250px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.row.equal-cols {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.equal-cols:before,
+.row.equal-cols:after {
+    display: block;
+}
+
+.row.equal-cols>[class*='col-'] {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.row.equal-cols>[class*='col-']>* {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.benefit {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.item-benefit {
+    background: #258ecd;
+    border-radius: 25px 0;
+    background-size: inherit;
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    width: 100%;
+    height: auto;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-benefit-a {
+    line-height: 20px;
+}
+
+.item-benefit .text1 {
+    font-family: "poppins", "sans-serif" !important;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 0;
+    background: none;
+}
+
+.item-benefit .text2 {
+    font-size: 12px;
+    font-family: "poppins", "sans-serif" !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.item-benefit .text2-a {
+    font-family: "poppins", "sans-serif" !important;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0;
+    background: none;
+}
+
+.item-benefit .text3 {
+    font-family: "poppins", "sans-serif" !important;
+    font-weight: 800;
+    font-size: 23px;
+    color: #f0c11a;
+}
+
+.item-benefit .text3.diskon25 {
+    font-size: 44px;
+}
+
+.item-benefit .text3 span {
+    font-family: "poppins", "sans-serif" !important;
+    font-size: 12px;
+    vertical-align: top;
+    color: #f0c11a;
+}
+
+.item-benefit .text4 {
+    font-size: 12px;
+    font-family: "poppins", "sans-serif" !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.title-benefit {
+    background: #bb1e21;
+    display: inline-block;
+    border-radius: 10px 0;
+    padding: 3px 15px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.desc-benefit {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    color: #5d4a10;
+    line-height: 55px;
+}
+
+.content-banner {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 38px;
+    font-family: "poppins" !important;
+    color: white;
+    /*right: 7%;*/
+    /* display: flex; */
+    /*top: 20%;*/
+    /* display: flex; */
+    /*position: absolute;*/
+}
+
+.content-banner .text span {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 5px;
+    font-family: "poppins", "sans-serif" !important;
+    vertical-align: top;
+    font-weight: 400;
+}
+
+.content-banner {
+    display: inline-flex;
+    margin-top: 140px;
+}
+
+.content-banner .img-banner img {
+    width: 50%;
+}
+
+.content-banner .img-banner {
+    margin-right: 8px;
+    text-align: right;
+}
+
+
+/* ######################################## */
+
+
+/* syarat 1 */
+
+.syarat1 {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.syarat1 .panel-group {
+    margin: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#superaccordion {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.syarat1 .panel-group .panel {
+    border-radius: 0px;
+    border: 0px;
+    /* border-radius: 10px; */
+}
+
+.syarat1 .panel-group .parent {
+    /* border-bottom: 1px solid #ecf0f1; */
+}
+
+.item-benefit1 {
+    background: #258ecd !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-benefit2 {
+    background: #1b62af !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.syarat1 .parent {
+    background-color: #ec7530 !important;
+}
+
+.syarat1 .panel-heading {
+    padding: 0px !important;
+    /* border-radius: 10px; */
+}
+
+.syarat1 .caracara {
+    font-size: 14px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.syarat1 .parent a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+
+.syarat1 .parent a[aria-expanded=false] {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.syarat1 .parent a[aria-expanded=true] {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.syarat1 .parent a:hover {
+    background-color: #ED6517 !important;
+}
+
+.syarat1 .panel-body {
+    background-color: #ffffff !important;
+}
+
+.inside-body {
+    padding: 25px;
+}
+
+.list-group.vertical-steps .list-group-item {
+    border: none;
+    border-left: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 0;
+    counter-increment: step-counter;
+    padding-left: 45px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.list-group.vertical-steps .list-group-item::before {
+    border-radius: 50%;
+    background-color: #0052c2;
+    color: #fff;
+    content: counter(step-counter);
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -35px;
+    text-align: center;
+    width: 20px;
+    font-size: 10px;
+}
+
+.list-group.vertical-steps .list-group-item span,
+.list-group.vertical-steps .list-group-item a {
+    /* display: block; */
+    overflow: hidden;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.list-group.vertical-steps .list-group-item:last-child {
+    border-left: 3px solid transparent;
+    padding-bottom: 0;
+}
+
+.syarat1 .inside-body h4:first-child {
+    margin-top: 0px;
+}
+
+.syarat1 .inside-body h4 {
+    padding: 20px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.syarat1 li a {
+    font-size: 12px;
+}
+
+
+/* end syarat 1 */
+
+.tabelPop h2.textH2 {
+    font-family: 'Gilroy' !important;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media(max-width:700px) {
+    .tabelPop .colTabelPop .PopTabel .popLogo {
+        width: 220px;
+    }
+    .tabelPop h2.textH2 {
+        font-size: 18px;
+    }
+    .tabelPop {
+        width: 100% !important;
+    }
+    .inside-body {
+        padding: 0px;
+    }
+    /* start */
+    .head-kanan {
+        padding-top: 10px;
+    }
+    .banner {
+        background: url('https://www.firstmedia.com/files/images/bt/p/nab/2022/maret/LP-Banner-Mobile_Online-Offer.jpg');
+        background-size: cover;
+        height: 515px;
+        padding-bottom: 25px;
+        background-position: top;
+        /* background-position: left; */
+        /* margin-top: 60px; */
+    }
+    .img-santa {
+        height: 0px !important;
+    }
+    .content-banner {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 40px;
+        color: white;
+        /*right: unset;*/
+        /*left: -15%;*/
+        /*top: unset;*/
+        display: block;
+        /*bottom: 24%;*/
+        /* display: flex; */
+        /*position: absolute;*/
+    }
+    .content-banner .img-santa img {
+        width: 300px margin: 0 auto;
+    }
+    .content-banner .img-col-text {
+        justify-content: center;
+    }
+    .content-banner .img-col-text .img-text {
+        justify-content: center;
+    }
+    .content-banner .img-col-text .img-text img {
+        width: 300px;
+        margin: 20px auto;
+    }
+    .content-banner .img-banner img {
+        width: 50%;
+    }
+    .content-banner .text {
+        text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+        line-height: 24px;
+    }
+    .content-banner .text span {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        padding-top: 5px;
+        vertical-align: top;
+        font-weight: 400;
+        display: flex;
+    }
+    .text1 {
+        display: inline-block;
+        background: #e81f5e;
+        padding: 5px 10px;
+        border-radius: 0 7px;
+        color: white;
+        font-size: 8px;
+    }
+    .text2 {
+        font-size: 27px;
+    }
+    .img-harga img {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .img-tokped img {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .text3 {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+    .text3.diskon25 {
+        font-size: 30px;
+        line-height: 25px;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+    .text-4 {
+        display: none;
+    }
+    .text-note {
+        text-align: center;
+        color: #00287d;
+        font-size: 8px;
+        margin-top: 4px;
+    }
+    .sub-head {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .benefit1 img {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .head-kanan {
+        padding-bottom: 5px;
+    }
+    .text3 span {
+        /* font-size: 6px; */
+        letter-spacing: 1px;
+    }
+    .headline {
+        line-height: 35px;
+        margin-top: 7px;
+    }
+    .anda-pelanggan {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+    .center-m {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .img-kv img {
+        width: 100%;
+        /* margin-top:25px; */
+    }
+    .img-browser img {
+        width: 85%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .logo-bs img {
+        width: 120px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .headline-h1 h1 {
+        font-size: 8px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sub-head {
+        width: 100%;
+        margin-top: 12px;
+    }
+    .list-syarat {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 11px;
+    }
+    .benefit {
+        width: 86%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .box-benefit {
+        padding: 20px;
+        background: #d23e3a;
+        display: inline-block;
+        border-radius: 0 10px;
+        width: 100%;
+    }
+    .box-icon img {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        background: white;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        float: none;
+        box-shadow: 0px 0px 5px rgba(234, 234, 234, 0.5);
+        margin-bottom: 10px;
+    }
+    .jdl-benefit {
+        text-transform: uppercase;
+        font-family: "poppins" !important;
+        font-weight: 700 !important;
+        font-size: 21px;
+        color: white;
+        line-height: 22px;
+        text-align: center;
+    }
+    .jdl-benefit span {
+        text-transform: uppercase;
+        font-family: "poppins" !important;
+        font-weight: 400 !important;
+        font-size: 11px;
+        color: white;
+    }
+    .item-benefit {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    .item-benefit-a {
+        line-height: unset;
+    }
+    .text-head {
+        font-size: 16px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 25px;
+        font-weight: 700;
+        /* line-height: 33px; */
+    }
+    .best-deals {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        margin-top: 60px;
+    }
+    .img-modem img {
+        margin-top: 25px;
+    }
+    .kanan-deals {
+        padding: 25px 25px 0px 25px;
+    }
+    .harga-best {
+        font-size: 30px;
+    }
+    .unit-best {
+        font-size: 12px;
+    }
+    .toped {
+        margin-top: 10px;
+    }
+    .sub-head-lease {
+        width: 95%;
+        font-size: 12px;
+    }
+    .untuk-berlangganan {
+        width: 95%;
+        border-radius: 20px;
+    }
+    .content-untuk-berlangganan {
+        border-radius: 20px;
+    }
+    .img-untuk-berlangganan a img {
+        width: 85%;
+        margin: 10px;
+        margin-top: 15px;
+    }
+    .text-desc {
+        width: 85%;
+        margin-top: 20px;
+        color: black !important;
+        font-family: montserrat, sans-serif !important;
+    }
+    .syarat1 {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .syarat1 .parent a {
+        text-align: center;
+    }
+    .syarat1 li,
+    .syarat1 li a {
+        font-size: 12.8px;
+    }
+    /* end */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .head-kanan {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .banner {
+        background-size: cover;
+        height: 235px;
+        padding-bottom: 25px;
+        background-position: left;
+    }
+    .content-banner {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 28px;
+    }
+    .content-banner .img-banner img {
+        width: 35%;
+    }
+    .content-banner .text span {
+        font-size: 12px;
+    }
+    .text-head {
+        font-size: 22px;
+        width: 85%;
+        margin-bottom: 15px;
+    }
+    .img-modem img {
+        width: 100%;
+        position: relative;
+        margin-top: -20px;
+    }
+    .text3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .headline {
+        line-height: 50px;
+        margin-top: 25px;
+    }
+    .untuk-berlangganan {
+        width: 85%;
+    }
+    .benefit1 img {
+        width: 90%;
+    }
+}
+
+.modal-header {
+    padding: 18px;
+    border: none;
+}
+
+.modal-content {
+    background-color: #061862;
+}
+
+.card-upgradeDevice {}
+
+.card-upgradeDevice .card {
+    border: 2px solid #008aff;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.card-upgradeDevice .card picture {
+    display: block;
+    height: 95px;
+    position: relative;
+}
+
+.card-upgradeDevice .card picture .card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 135px;
+}
+
+.card-upgradeDevice .card .card-body {
+    border: 2px solid #ff0042;
+    border-radius: 15px 0px 15px 0px;
+    /* overflow: auto; */
+    /* height: 154px; */
+    min-height: 154px;
+    max-height: 254px;
+}
+
+.card-upgradeDevice .card .card-body .card-title {
+    background-color: #ff0042;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: table-cell;
+    border-radius: 8px 0px 8px 0px;
+    margin-bottom: 5px;
+}
+
+.card-upgradeDevice .card .card-body .card-text {
+    color: #fff;
+    margin-top: 5px;
+    padding: 25px 15px 15px 15px;
+    overflow: auto;
+    height: 130px;
+}
+
+
+/*COMPOPOP*/
+
+.tabelPop {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.tabelPop .colTabelPop {
+    border-radius: 40px;
+    border: 10px solid #f7b600;
+    background-image: url('https://www.firstmedia.com/files/images/bt/p/nab/2022/januari/bg-biru.png');
+    background-position: top;
+    background-size: cover;
+    background-color: #3a7fe2;
+}
+
+.tabelPop .colTabelPop .PopTabel {
+    padding: 65px 0px 20px 0px;
+}
+
+.BestDeals {
+    position: relative;
+}
+
+.BestDeals::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://www.firstmedia.com/files/images/bt/p/nab/2022/januari/best-deals.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: top left;
+    width: 70px;
+    height: 45px;
+    right: -16px;
+    top: -20px;
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+    .BestDeals::before {
+        background-size: 110px;
+        width: 110px;
+        height: 70px;
+        right: -24px;
+        top: -30px;
+    }
+}
+
+.jdl-section {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    letter-spacing: .01em;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.BT-pilih-promo {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.BT-pilih-promo .nav-pills {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.BT-pilih-promo .nav>li>a,
+.BT-pilih-promo .nav>li>a:focus,
+.BT-pilih-promo .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #f6f6f6;
+    border-radius: 50px !important;
+}
+
+.BT-pilih-promo .nav-pills>li.active>a,
+.BT-pilih-promo .nav-pills>li.active>a:focus,
+.BT-pilih-promo .nav-pills>li.active>a:hover {
+    color: #fff !important;
+    background-color: #337ab7;
+    border-radius: 50px !important;
+}
+
+@media(min-width:900px) {
+    .center-desktop {
+        text-align: center !important;
+    }
+}
