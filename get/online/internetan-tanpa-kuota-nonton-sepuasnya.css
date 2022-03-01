@@ -1,0 +1,294 @@
+.spooctacular {
+    /*background-image: url('');*/
+    background-size: cover;
+    background-color: #ba222f;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.spooctacular .spoocTop {
+    position: relative;
+}
+
+.spooctacular .spoocTop .hordengKiri,
+.spooctacular .spoocTop .hordengKanan {
+    position: absolute;
+    top: 0;
+    width: 145px;
+}
+
+
+.spooctacular .spoocTop .hordengKiri {
+    left: 0;
+}
+
+.spooctacular .spoocTop .hordengKanan {
+    right: 0;
+}
+
+.spooctacular .bannerDeks {
+    width: 100vw;
+}
+
+.kontent {
+    margin: 0px 0px;
+}
+
+.spooctacular h2 {
+    font-family: 'Gilroy' !important;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.ulBenefit {
+    display: block;
+    margin: 50px 0px 90px 0px;
+    padding: 0px;
+}
+
+.ulBenefit .liBenefit {
+    display: inline;
+}
+
+.ulBenefit .liBenefit .imgBenefit {
+    padding: 0 16px;
+    width: 235px;
+}
+
+.spooctacular .tabelPop {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.spooctacular .tabelPop .colTabelPop {
+    border-radius: 40px;
+    border: 10px solid #f7b600;
+    background-image: url('https://www.firstmedia.com/files/images/bt/p/eo/2022/jan/imlek/bg-pop-imlek.png');
+    background-position: top;
+    background-size: cover;
+    background-color: #b10c0c;
+}
+
+.spooctacular .tabelPop .colTabelPop .PopTabel {
+    padding: 0px 0px 20px 0px;
+}
+
+/* ######################################## */
+/* syarat 1 */
+.syarat1 {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.syarat1 .panel-group {
+    margin: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#superaccordion {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.syarat1 .panel-group .panel {
+    border-radius: 0px;
+    border: 0px;
+    /* border-radius: 10px; */
+}
+
+.syarat1 .panel-group .parent {
+    /* border-bottom: 1px solid #ecf0f1; */
+}
+
+.item-benefit1 {
+    background: #258ecd !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-benefit2 {
+    background: #1b62af !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.syaratPromo {
+    margin-top: 40px;
+}
+
+.syarat1 .parent {
+    background-color: #ec7530 !important;
+}
+
+.syarat1 .panel-heading {
+    padding: 0px !important;
+    /* border-radius: 10px; */
+}
+
+.syarat1 .caracara {
+    font-size: 14px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.syarat1 .parent a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+
+.syarat1 .parent a[aria-expanded=false] {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.syarat1 .parent a[aria-expanded=true] {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.syarat1 .parent a:hover {
+    background-color: #ED6517 !important;
+}
+
+.syarat1 .panel-body {
+    background-color: #ffffff !important;
+}
+
+.inside-body {
+    padding: 10px;
+}
+
+.list-group.vertical-steps .list-group-item {
+    border: none;
+    border-left: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 0;
+    counter-increment: step-counter;
+    padding-left: 45px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.list-group.vertical-steps .list-group-item::before {
+    border-radius: 50%;
+    background-color: #0052c2;
+    color: #fff;
+    content: counter(step-counter);
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -35px;
+    text-align: center;
+    width: 20px;
+    font-size: 10px;
+}
+
+.list-group.vertical-steps .list-group-item span,
+.list-group.vertical-steps .list-group-item a {
+    /* display: block; */
+    overflow: hidden;
+    padding-top: 2px;
+    font-size: 14px;
+    font-family: 'Gilroy' !important;
+}
+
+.list-group.vertical-steps .list-group-item:last-child {
+    border-left: 3px solid transparent;
+    padding-bottom: 0;
+}
+
+.syarat1 .inside-body h4:first-child {
+    margin-top: 0px;
+}
+
+.syarat1 .inside-body h4 {
+    padding: 20px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.syarat1 li a {
+    font-size: 12px;
+}
+
+/* end syarat 1 */
+
+@media(max-width:700px) {
+    .bannerMobile {
+        width: 100%;
+    }
+
+    .spooctacular .spoocTop .hordengKiri,
+    .spooctacular .spoocTop .hordengKanan {
+        display: none;
+    }
+
+    .kontent {
+        margin-top: 10px;
+    }
+
+    .spooctacular h2 {
+        font-size: 18px;
+    }
+
+    .ulBenefit {
+        margin: 35px 0px 50px 0px;
+        display: flex;
+    }
+
+    .ulBenefit .liBenefit {}
+
+    .ulBenefit .liBenefit .imgBenefit {
+        width: 100%;
+    }
+
+    .spooctacular .tabelPop .colTabelPop {
+        border-radius: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-width: 8px;
+    }
+
+    .spooctacular .tabelPop .colTabelPop .PopTabel {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .spooctacular .tabelPop .colTabelPop .PopTabel .popLogo {
+        width: 220px;
+    }
+
+    .spooctacular .tabelPop .colTabelPop .PopTabel .equationMobile {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .syaratPromo {
+        margin-top: 0px;
+    }
+
+    .syarat1 {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+
+    .syarat1 .parent a {
+        text-align: center;
+    }
+
+    .syarat1 li,
+    .syarat1 li a {
+        font-size: 12.8px;
+    }
+}
