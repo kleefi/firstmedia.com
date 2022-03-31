@@ -1,0 +1,206 @@
+<style type="text/css">.modal-content{width: 100%;}
+    .popupsmart .modal-body{background-color: unset!Important;border-radius: unset!important;}
+    .popupsmart .close{text-align: right!important;right: 20px!important;top:20px!important;}
+    svg.svg-close-popup{border:4px solid #E19636 !important;}
+    circle#Ellipse_250{fill:#E19636!important;}
+    line#Line_1,line#Line_2{stroke-width:6px;}
+    .modal-open .modal.popupsmart.modal-cookie_popup{
+         background-color:#00000080;
+         backdrop-filter:blur(10px);
+         z-index:99999;
+         }
+    .tampung-div{
+        background:#de8009;
+        padding:30px 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .konten-cta-ja2 h2{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+        font-family: 'Gilroy', sans-serif !important;
+        text-align: left;
+        letter-spacing: 1px!important;
+        margin: 22px 0 11px!important;
+    }
+    .konten1-cta-ja2 h1{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: left;
+        font-family: 'Gilroy', sans-serif !important;
+        color: #fff;
+        letter-spacing: 1px!Important;
+        margin: 22px 0 11px!important;
+    }
+    .button-cta-ja2{
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        z-index: 4;
+        top: 130px;
+        left: 25px;
+        box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 
+            0.12);
+        border: 2px solid #fff;
+        font-family: 'Gilroy', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000;
+        border-radius: 10px;
+    }
+    .konten1-cta-ja2 p{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: inherit;
+        color: #fff;
+        text-align: left;
+        font-family: 'Gilroy', sans-serif !important;
+        letter-spacing: 1px!important;
+    }
+    .row-cs:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .col-8-cs{
+        float: left;
+        width: 70%;
+        margin-top:-30px;
+    }
+    .col-4-cs{
+        float: left;
+        width: 30%;
+    }
+    .col-4-cs img{
+        width: 100%;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .putih{
+        background-color: #fff;
+        height: 60px;
+        margin-top:-10%;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+        .mobile-cta{display: none;}
+        .desktop-cta{display: block;}
+        .row-cs{
+            display: flex;
+            align-items: center;
+        }
+        .row-cs.desktop-cta{
+            display: block;
+        }
+    @media (max-width:600px){
+        .col-8-cs{
+            width: 100%;
+            margin-top:0;
+        }
+        .col-4-cs{
+            width: 100%;
+        }
+        div#text-popup{order:2;}
+        div#gambar-popup{
+            order:1;
+            position: absolute;
+            z-index: -99;
+            top: -40px;
+            width: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .tampung-div{
+            padding: 5% 5% 12% 5%;
+            height: 540%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .tampung-div2{
+            background:#fff;
+            padding:10px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 50px;
+        }
+        .konten1-cta-ja2 h1{
+            line-height: auto;
+    
+        }
+        .button-cta-ja2{
+            font-size: 13px;
+            /* margin-bottom: 5%; */
+            margin-top: 15%;
+        }
+        .for-mobile{
+            display: inline;
+        }
+        .putih{
+            position: inherit;
+            width: 100%;
+            /* bottom: -10%; */
+        }
+        .desktop-cta{display: none;}
+        .mobile-cta{
+            display: none;
+            position: absolute;
+            width: 80%;
+            left: 10%;
+            bottom: 10%;
+        }
+        .modal-dialog{
+            max-width: 600px!important;
+        }
+        .row-cs.desktop-cta{
+            z-index: 9;
+            margin-bottom: -10%;
+        }
+        .putih.desktop-cta{
+            background:#fff;
+            padding:3% 25% 3% 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 60%;
+        }
+    }
+        @media (min-width: 576px){
+            .modal-dialog{
+                max-width: 600px!important;
+            }
+        }
+</style>
+<div class="tampung-div">
+<div class="row-cs">
+<div class="col-8-cs" id="text-popup">
+<div class="konten-cta-ja2">
+<h2 class="special-untuk">SPECIAL UNTUK ANDA!</h2>
+</div>
+
+<div class="konten1-cta-ja2">
+<h1 class="diskon-25">Diskon 25% <span class="for-mobile">untuk Paket Internet TV</span></h1>
+
+<p class="dapatkan-internet">Dapatkan internet #BeneranTanpaBatas dan lebih dari 200 TV Channel berkualitas HD hingga 4K</p>
+</div>
+</div>
+
+<div class="col-4-cs" id="gambar-popup"><img alt="" src="https://www.firstmedia.com/files/images/Aset/char/2022/popup/isp/happy-robot-firstmeda.png" /></div>
+</div>
+
+<div class="row-cs desktop-cta"><a id="CTA_POPUP_ISP" href="https://www.firstmedia.com/get/isp/saatnya-beralih-ke-internet-beneran-tanpa-batas" target="_blank"><button class="button-cta-ja2"><img alt="icon" id="icon2" src="https://www.firstmedia.com/files/icons/lihat_promo.svg" /> LIHAT PROMO SEKARANG</button></a></div>
+</div>
+
+<div class="putih desktop-cta">&nbsp;</div>
+
+<div class="mobile-cta">
+<div class="row-cs"><button class="button-cta-ja2"><img alt="icon" id="icon2" src="https://www.firstmedia.com/files/icons/lihat_promo.svg" /> LIHAT PROMO SEKARANG</button></div>
+</div>
