@@ -1,3 +1,70 @@
+<style>
+ .circle {
+  stroke: #f8981d;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+  }
+  .playBut {
+  /*  border: 1px solid red;*/
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  }
+  .playBut .triangle {
+  -webkit-transition: all 0.7s ease-in-out;
+  stroke-dasharray: 240;
+  stroke-dashoffset: 480;
+  stroke: #fff;
+  transform: translateY(0);
+  }
+  .playBut:hover .triangle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  stroke: #f8981d;
+  animation: nudge 0.7s ease-in-out;
+  }
+  @keyframes nudge {
+  0% {
+  transform: translateX(0);
+  }
+  30% {
+  transform: translateX(-5px);
+  }
+  50% {
+  transform: translateX(5px);
+  }
+  70% {
+  transform: translateX(-2px);
+  }
+  100% {
+  transform: translateX(0);
+  }
+  }
+  .playBut:hover .circle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  }
+
+
+.SpeedBoost__list__content__new .box .boxInfo .boxInfoSpeed .textSpeed{font-size:14px !important;}
+@media(min-width:700px)
+{
+    .pilihMenuBar a,.scroller,.pilihPaket a{font-size:15px !important;}
+}
+@media (max-width:700px)
+{
+    .kolPilihPaket{
+       margin-top: -50px !important;
+       background: no-repeat !important;
+    }
+    .menuPostmobile .menuPostContent
+    {
+       max-width: 100% !important;
+    }
+    .pilihMenuBar a{padding:0px 12px !important;}
+}
+</style>
 <!-- START KONTEN FASTNET -->
 <header class="navPaket" style="">
 <div class="navbar navbar-default navbar-fixed-top">
