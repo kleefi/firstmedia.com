@@ -65,6 +65,89 @@
     .pilihMenuBar a{padding:0px 12px !important;}
 }
 </style>
+<script>
+ // BLUR BANNER
+window.addEventListener('scroll', () => {
+    const scrollOffset = document.documentElement.scrollTop;
+    const image = document.querySelector('.image');
+    const height = image.offsetHeight;
+    const imageStyles = window.getComputedStyle(image, null);
+    const scale = imageStyles.transform.match(/-?[\d\.]+/g)[0];
+    const maxScroll = Math.min(scrollOffset, height);
+    const maxPosition = Math.min(-35 + scrollOffset / scale, (height / 2));
+    image.style.filter = `blur(${(maxScroll / height) * 10}px)`;
+    image.style.backgroundPositionY = `${maxPosition}px`
+});
+
+// scrollBanner
+function scrollBanner(config) {
+    scrollPos = $(this).scrollTop();
+    config.bannerText.css({
+        'margin-top' : -(scrollPos/8) + "px",
+        'opacity' : 1-(scrollPos/300)
+    });
+    config.banner.css({
+        'background-position': 'center ' + (-scrollPos/4) + "px"
+    });
+}
+$(document).ready(function(){
+    $(window).scroll(function() {
+        scrollBanner({
+            banner: $('.banner'),
+            bannerText: $('.banner-text')
+        });
+    });
+});
+    
+//SLIDER SPEEDBOOST
+$(function(){
+    var sectionSpeedBoostSlider = new Swiper('#section-SpeedBoost__slider', {
+        slidesPerView: 4,
+        // centeredSlides: true,
+        // freeMode: true;
+        paginationClickable: true,
+        nextButton: '#section-SpeedBoost__slider-next',
+        prevButton: '#section-SpeedBoost__slider-prev',
+        spaceBetween: 0,
+        grabCursor: true,
+        breakpoints: {
+            768: {
+                slidesPerView: 2
+            }
+        }
+    });
+});
+//END SLIDER SPEEDBOOST
+// YOUTUBE
+// intro
+document.querySelector('.vdFastnet1').addEventListener('click',function(event){
+    event.preventDefault();
+    var parent=event.target.parentElement;
+    event.target.remove();
+    parent.innerHTML='<iframe class="kontenVd" src="https://www.youtube.com/embed/9aTs2rI21jM?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3" width="414" height="275" frameborder="0"></iframe>'
+});
+// speedbost
+document.querySelector('.vdFastnet2').addEventListener('click',function(event){
+    event.preventDefault();
+    var parent=event.target.parentElement;
+    event.target.remove();
+    parent.innerHTML='<iframe class="kontenVd vdKontenKecil" width="340" height="190" src="https://www.youtube.com/embed/h8PGadCbqU8?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+});
+// game xpert
+document.querySelector('.vdFastnet3').addEventListener('click',function(event){
+    event.preventDefault();
+    var parent=event.target.parentElement;
+    event.target.remove();
+    parent.innerHTML='<iframe class="kontenVd vdKontenKecil" width="340" height="190" src="https://www.youtube.com/embed/-ZBcIRjoeAY?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+});
+// wifi xtender
+document.querySelector('.vdFastnet4').addEventListener('click',function(event){
+    event.preventDefault();
+    var parent=event.target.parentElement;
+    event.target.remove();
+    parent.innerHTML='<iframe class="kontenVd vdKontenKecil" width="340" height="190" src="https://www.youtube.com/embed/Y2Vlz5yyU8o?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+});
+</script>
 <!-- START KONTEN FASTNET -->
 <header class="navPaket" style="">
 <div class="navbar navbar-default navbar-fixed-top">
